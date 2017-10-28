@@ -25,5 +25,8 @@
   "devDependencies": {
     "heroku-cli": "^6.14.36",
     "nodemon": "^1.11.0"
+  },
+  "engines": {
+    "node": ">=6.11.1"
   }
 }
