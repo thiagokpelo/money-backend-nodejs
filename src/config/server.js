@@ -1,4 +1,4 @@
-const port        = 80
+const port        = process.env.PORT || 80;
 
 const bodyParser  = require('body-parser')
 const queryParser = require('express-query-int')
