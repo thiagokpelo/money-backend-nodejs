@@ -4,7 +4,7 @@ const express     = require('express')
 const server      = express()
 
 const allowCors   = require('./cors')
-const port        = 3003
+const port        = 80
 
 server.use( bodyParser.urlencoded({ extended: true }) )
 server.use( bodyParser.json() )
